@@ -11,7 +11,10 @@ const cors = require('cors');
 const { router } = require('./router');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
-let url = process.env.PORT ? 'mongoatlass' : 'mongodb://localhost:27017/disney_minus_api' 
+
+let user = process.env.USER
+let password = process.env.PASSWORD
+let url = process.env.PORT ? `mongodb+srv://${user}:${password}@cluster0.cn3nl3k.mongodb.net/?retryWrites=true&w=majority` : 'mongodb://localhost:27017/disney_minus_api' 
 
 mongoose.connect(url, {
     useNewUrlParser: true,
