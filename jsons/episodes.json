@@ -1,0 +1,106 @@
+[
+    {
+      "season_id": 1,
+      "ep_id": 1,
+      "title": "1. Simsons Roasting on an Open Fire",
+      "description": "Homer's Christmas bonus is cancelled and the rainy-day funds are needed for Bart's tatoo removal.",
+      "time": "25m",
+      "img": "/assets/series/episodes/ep1.png"
+    },    
+    {
+        "season_id": 1,
+        "ep_id": 2,
+        "title": "2. Bart the Genious",
+        "description": "Bart is moved to a school for the girted after he switches aptitude tests with another boy.",
+        "time": "24m",
+        "img": "/assets/series/episodes/ep2.png"
+    },
+    {
+        "season_id": 1,
+        "ep_id": 3,
+        "title": "3. Homer's Odyssey",
+        "description": "After being fired from the nuclear power plant for negligence, Homer becomes a safety activist.",
+        "time": "24m",
+        "img": "/assets/series/episodes/ep3.png"
+    },
+    {
+        "season_id": 1,
+        "ep_id": 4,
+        "title": "4. There's No Disgrace Like Home",
+        "description": "After seeing families being nice to each other, Homer orders the Simsons to a therapist",
+        "time": "24m",
+        "img": "/assets/series/episodes/ep4.png"
+    },
+    {
+        "season_id": 1,
+        "ep_id": 0,
+        "title": "1. Simsons Roasting on an Open Fire",
+        "description": "",
+        "time": "24m",
+        "img": "/assets/series/episodes/ep1.png"
+    },    
+    {
+        "season_id": 1,
+        "ep_id": 0,
+        "title": "1. Simsons Roasting on an Open Fire",
+        "description": "",
+        "time": "24m",
+        "img": "/assets/series/episodes/ep1.png"
+    },
+    {
+        "season_id": 1,
+        "ep_id": 0,
+        "title": "1. Simsons Roasting on an Open Fire",
+        "description": "",
+        "time": "24m",
+        "img": "/assets/series/episodes/ep1.png"
+    },
+    {
+        "season_id": 1,
+        "ep_id": 0,
+        "title": "1. Simsons Roasting on an Open Fire",
+        "description": "",
+        "time": "24m",
+        "img": "/assets/series/episodes/ep1.png"
+    },
+    {
+        "season_id": 1,
+        "ep_id": 0,
+        "title": "1. Simsons Roasting on an Open Fire",
+        "description": "",
+        "time": "24m",
+        "img": "/assets/series/episodes/ep1.png"
+    },    
+    {
+        "season_id": 1,
+        "ep_id": 0,
+        "title": "1. Simsons Roasting on an Open Fire",
+        "description": "",
+        "time": "25m",
+        "img": "/assets/series/episodes/ep1.png"
+    },
+    {
+        "season_id": 1,
+        "ep_id": 0,
+        "title": "1. Simsons Roasting on an Open Fire",
+        "description": "",
+        "time": "25m",
+        "img": "/assets/series/episodes/ep1.png"
+    },
+    {
+        "season_id": 1,
+        "ep_id": 0,
+        "title": "1. Simsons Roasting on an Open Fire",
+        "description": "",
+        "time": "25m",
+        "img": "/assets/series/episodes/ep1.png"
+    },
+    {
+        "season_id": 1,
+        "ep_id": 0,
+        "title": "1. Simsons Roasting on an Open Fire",
+        "description": "",
+        "time": "25m",
+        "img": "/assets/series/episodes/ep1.png"
+    }
+  ]
