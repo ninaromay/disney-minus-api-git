@@ -11,8 +11,9 @@ const cors = require('cors');
 const { router } = require('./router');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
+let url = process.env.PORT ? 'mongoatlass' : 'mongodb://localhost:27017/disney_minus_api' 
 
-mongoose.connect('mongodb://localhost:27017/disney_minus_api', {
+mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })  .then( () => {console.log('Conectado a mongoose');} )
@@ -31,7 +32,7 @@ app.use(express.urlencoded({ extended : false }))
 app.use(router);
 
 // 4 - Api functions get
-
+// 
 
 //IN ROUTER
 
@@ -45,8 +46,9 @@ app.use(router);
 //     res.status(200).json(response)
 // })
 
+let puerto = process.env.PORT || 3005
 
 // Api listen to port
-app.listen(3005, ()=>{
+app.listen(puerto, ()=>{
     console.log('Initializing Disney Minus Api');
 })
